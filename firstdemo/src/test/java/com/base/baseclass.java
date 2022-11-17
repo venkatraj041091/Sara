@@ -33,7 +33,7 @@ import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseclass {
-	static WebDriver driver;
+	WebDriver driver;
 	private String getdatafromcell(String sheetname,int rownum,int cellnum) throws IOException {
 		String re="";
 		File file =new File("C:\\Users\\venky\\OneDrive\\Desktop\\selenium\\firstdemo\\excelsheet\\adactin hotel.xlsx");
